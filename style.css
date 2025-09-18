@@ -112,10 +112,13 @@ nav img {
 /* Burger menu icons */
 
 .fa {
-  display: none;
-  color: #fff;
+  color: #fffdfd;
   font-size: 28px;
   cursor: pointer;
+  display: none;
+}
+.fa-bars, .fa-times {
+  display: none !important;
 }
 
 
@@ -239,7 +242,7 @@ section p {
 
 /* Training Section */
 #training {
-  background: #f5f5f5;
+  
   padding: 80px 10%;
   text-align: center;
 }
@@ -309,7 +312,7 @@ section p {
 .icons i {
   margin: 0 12px;
   font-size: 22px;
-  color: #00ff88;
+  color: #9c4dc7;
   cursor: pointer;
   transition: 0.3s;
 }
@@ -359,5 +362,36 @@ section p {
   .achievements .row {
     flex-direction: column;
     align-items: center;
+  }
+  .fa-bars, .fa-times {
+    display: block !important;
+    font-size: 28px;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  /* Burger is outside the nav menu */
+  .fa-bars {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+  }
+
+  /* Cross is inside the nav menu */
+  .fa-times {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    display: block !important; /* hidden until menu opens */
+  }
+
+  /* When nav is open, show cross */
+  .nav-links.active .fa-times {
+    display: block !important;
+  }
+
+  /* When nav is open, hide burger */
+  .nav-links.active ~ .fa-bars {
+    display: block !important;
   }
 }
