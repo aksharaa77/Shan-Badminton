@@ -187,10 +187,53 @@ section p {
   transition: transform 0.3s;
 }
 
+.aboutus p{
+    padding: 20px 8%;
+}
+
+.aboutus .row {
+  display: flex;
+  flex-direction: column;   /* stack in one column */
+  align-items: center;      /* center the cards */
+  gap: 30px;                /* spacing between cards */
+  padding: 20px 10%;
+}
+
+.coaches {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+  width: 100%;              /* take full available width */
+  max-width: 900px;         /* prevent it from being too wide */
+  min-height: 200px;
+  gap: 25px;
+  transition: transform 0.3s;
+}
+
+.coaches img {
+  width: 180px;             /* bigger image */
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+  flex-shrink: 0;
+}
+
+.coach-info {
+  flex: 1;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
 .coaches:hover {
   transform: translateY(-8px);
-  border-top: 5px solid #00ff88;
+  border-top: 6px solid #9e40bb;
 }
+
+
+
 
 /* Achievements */
 .achievements .row {
@@ -394,4 +437,41 @@ section p {
   .nav-links.active ~ .fa-bars {
     display: block !important;
   }
+
+  .coaches:hover {
+  transform: translateY(-8px);
+  border-top: 5px solid #9e40bb;
+}
+
+.coaches {
+  display: flex;                /* side-by-side layout */
+  align-items: center;          /* vertically align image + text */
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  min-width: 300px;
+  gap: 20px;                    /* space between image & text */
+  transition: transform 0.3s;
+}
+
+.coaches img {
+  width: 120px;                 /* adjust size as needed */
+  height: 120px;
+  object-fit: cover;            /* prevents stretching */
+  border-radius: 8px;           /* soft corners */
+  flex-shrink: 0;               /* image won’t shrink */
+}
+
+.coach-info {
+  flex: 1;                      /* text takes remaining space */
+}
+
+.coaches:hover {
+  transform: translateY(-8px);
+  border-top: 5px solid #9e40bb;
+}
+
+
+
 }
