@@ -280,6 +280,92 @@ section p {
   color: #555;
 }
 
+.tournament-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.tournament-card h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #111;
+}
+
+.swiper {
+  width: 100%;
+  padding-bottom: 30px;
+}
+
+.swiper-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.swiper-slide img {
+  width: 180px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.swiper-slide p {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #333;
+  text-align: center;
+}
+
+/* Achievements */
+.achievements-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  padding: 20px 8%;
+}
+
+.achievement-card {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  width: 260px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  text-align: center;
+}
+
+.achievement-card:hover {
+  transform: translateY(-8px);
+}
+
+.achievement-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.achievement-info {
+  padding: 15px;
+}
+
+.achievement-info h3 {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+  color: #111;
+}
+
+.achievement-info p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
 
 /* Training Section */
 #training {
