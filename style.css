@@ -125,18 +125,18 @@ nav img {
 
 /* Hero text */
 .text-box h1 {
-  font-size: 3.5rem;
+  font-size: 5.5rem;
   color: #fff;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   text-transform: uppercase;
   letter-spacing: 3px;
   animation: fadeInDown 1s ease;
 }
 
 .text-box p {
-  font-size: 1.2rem;
+  font-size: 2.0rem;
   color: #eee;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .hero-btn {
