@@ -9,7 +9,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: linear-gradient(to bottom right, #8d67ae, #ffffff);
+  background: linear-gradient(to bottom right, #7bb3e1, #ffffff);
   background-attachment: fixed; /* stays still when scrolling */
   color: #222;
 }
@@ -22,7 +22,7 @@ body {
   min-height: 100vh;
   width: 100%;
   background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
-              url('images/sbawbg9.png') no-repeat center/cover;
+              url('images/sbabg10.png') no-repeat center/cover;
   position: relative;
   display: flex;
   justify-content: center;
@@ -103,7 +103,7 @@ nav img {
 
 .nav-links ul li a:hover,
 .nav-links ul li a.active {
-  background: #9d3bde; /* Neon badminton vibe */
+  background: #43bceb; /* Neon badminton vibe */
   color: #111;
   box-shadow: 0 4px 10px rgba(63, 40, 163, 0.597);
 }
@@ -143,7 +143,7 @@ nav img {
   display: inline-block;
   text-decoration: none;
   color: #fff;
-  border: 2px solid #9461e7;
+  border: 2px solid #66abeb;
   padding: 10px 30px;
   font-size: 1.1rem;
   border-radius: 25px;
@@ -229,7 +229,7 @@ section p {
 
 .coaches:hover {
   transform: translateY(-8px);
-  border-top: 6px solid #9e40bb;
+  border-top: 6px solid #62a7d4;
 }
 
 
@@ -439,7 +439,7 @@ section p {
 .icons i {
   margin: 0 12px;
   font-size: 22px;
-  color: #9c4dc7;
+  color: #5bb3df;
   cursor: pointer;
   transition: 0.3s;
 }
@@ -524,7 +524,7 @@ section p {
 
   .coaches:hover {
   transform: translateY(-8px);
-  border-top: 5px solid #9e40bb;
+  border-top: 5px solid #71b0e1;
 }
 
 .coaches {
@@ -553,7 +553,7 @@ section p {
 
 .coaches:hover {
   transform: translateY(-8px);
-  border-top: 5px solid #9e40bb;
+  border-top: 5px solid #3e84af;
 }
 
 
